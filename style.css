@@ -5,9 +5,16 @@ body{
 h1 {
     font-size: 50px;
 }
+h2{
+    font-size: 50px;
+}
 .name_highlight{
     color:coral
 }
+p{
+    color:teal;
+}
+
 .half_width{
     width: 40%;
     float:left;
@@ -21,6 +28,20 @@ h1 {
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
+.dream_area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
 section{
     height: 500px;
+    padding-bottom: 150px;
+}
+.anchor_button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
 }
